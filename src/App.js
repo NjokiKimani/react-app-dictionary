@@ -4,6 +4,7 @@ import Results from "./Results";
 import Photos from "./Photos";
 
 import "./App.css";
+import useMediaQuery from "./MediaQuery";
 
 export default function App() {
   let [word, setWord] = useState("grace");
@@ -24,7 +25,6 @@ export default function App() {
     setWordData(response.data[0]);
   }
 
- 
   function search() {
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(apiUrl).then(handleResponse);

@@ -4,7 +4,6 @@ import Results from "./Results";
 import Photos from "./Photos";
 
 import "./App.css";
-import useMediaQuery from "./MediaQuery";
 
 export default function App() {
   let [word, setWord] = useState("grace");

@@ -88,13 +88,8 @@ transition: 150ms all ease-in-out;
 }
 
 .photo{
-  border: 1px solid black;
+  border: 1px solid none;
   border-radius: 4px;
   margin-bottom:25px;
 }
 
-@media(max-width:800px){
-  .header{
-  border: 1px solid black;
-  }
-}
